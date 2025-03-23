@@ -14,9 +14,34 @@ class TestSaleOrderLineSequence(TransactionCase):
         cls.sale_order_line = cls.env["sale.order.line"]
         cls.account_move = cls.env["account.move"]
         cls.account_move_line = cls.env["account.move.line"]
-        cls.partner = cls.env.ref("base.res_partner_1")
-        cls.product = cls.env.ref("product.product_product_4")
-        cls.product_2 = cls.env.ref("product.product_product_11")
+        cls.partner = cls.env["res.partner"].create({
+            "name": "Demo Partner",
+            "is_company": True,
+            "street": "1839 Arbor Way",
+            "city": "Turlock",
+            "state_id": cls.env.ref("base.state_us_5").id,
+            "zip": "95380",
+            "country_id": cls.env.ref("base.us").id,
+            "email": "wood.corner26@example.com",
+            "phone": "(623)-853-7197",
+            "website": "http://www.wood-corner.com",
+            "vat": "US12345672",
+        })
+        cls.product = cls.env["product.product"].create({
+            "name": "Furniture Test",
+            "default_code": "FURN_009601",
+            "standard_price": 500.0,
+            "weight": 0.01,
+        })
+        cls.product_2 = cls.env["product.product"].create({
+            "name": "Conference Chair",
+            "categ_id": cls.env.ref("product.product_category_5").id,
+            "standard_price": 28,
+            "list_price": 33,
+            "type": "consu",
+            "uom_id": cls.env.ref("uom.product_uom_unit").id,
+            "uom_po_id": cls.env.ref("uom.product_uom_unit").id,
+        })
 
     def _create_sale_order(self):
         vals = {

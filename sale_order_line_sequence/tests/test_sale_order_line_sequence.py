@@ -27,6 +27,10 @@ class TestSaleOrderLineSequence(TransactionCase):
             "website": "http://www.wood-corner.com",
             "vat": "US12345672",
         })
+        categ_id = cls.env["product.category"].create({
+            "name": "Test Office Furniture",
+            "parent_id": cls.env.ref("product.product_category_1").id
+        })
         cls.product = cls.env["product.product"].create({
             "name": "Furniture Test",
             "default_code": "FURN_009601",
@@ -35,7 +39,7 @@ class TestSaleOrderLineSequence(TransactionCase):
         })
         cls.product_2 = cls.env["product.product"].create({
             "name": "Conference Chair",
-            "categ_id": cls.env.ref("product.product_category_5").id,
+            "categ_id": categ_id.id,
             "standard_price": 28,
             "list_price": 33,
             "type": "consu",

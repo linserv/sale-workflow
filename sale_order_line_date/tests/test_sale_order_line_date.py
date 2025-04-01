@@ -16,13 +16,13 @@ class TestSaleOrderLineDates(TransactionCase):
     def setUpClass(cls):
         """Setup a Sale Order with 4 lines."""
         super().setUpClass()
-        customer = cls.env.ref("base.res_partner_3")
+        customer = cls.env["res.partner"].create({"name": "Test SO date partner"})
         cls.company = cls.env.ref("base.main_company")
         cls.company.security_lead = 1
 
         price = 100.0
         qty = 5
-        product_id = cls.env.ref("product.product_product_7")
+        product_id = cls.env["product.product"].create({"name": "Test SO date product"})
         cls.today = fields.Datetime.now()
         cls.dt1 = cls.today + datetime.timedelta(days=9)
         cls.dt2 = cls.today + datetime.timedelta(days=10)

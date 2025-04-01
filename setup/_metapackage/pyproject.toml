@@ -1,29 +1,37 @@
 [project]
 name = "odoo-addons-oca-sale-workflow"
-version = "18.0.20250310.0"
+version = "18.0.20250331.3"
 dependencies = [
     "odoo-addon-sale_automatic_workflow==18.0.*",
     "odoo-addon-sale_automatic_workflow_periodicity==18.0.*",
     "odoo-addon-sale_automatic_workflow_stock==18.0.*",
     "odoo-addon-sale_cancel_reason==18.0.*",
     "odoo-addon-sale_commercial_partner==18.0.*",
+    "odoo-addon-sale_delivery_split_date==18.0.*",
     "odoo-addon-sale_discount_display_amount==18.0.*",
     "odoo-addon-sale_exception==18.0.*",
     "odoo-addon-sale_exception_product_sale_manufactured_for==18.0.*",
     "odoo-addon-sale_force_invoiced==18.0.*",
+    "odoo-addon-sale_mail_autosubscribe==18.0.*",
     "odoo-addon-sale_order_archive==18.0.*",
+    "odoo-addon-sale_order_disable_user_autosubscribe==18.0.*",
     "odoo-addon-sale_order_line_date==18.0.*",
     "odoo-addon-sale_order_line_menu==18.0.*",
     "odoo-addon-sale_order_line_note==18.0.*",
     "odoo-addon-sale_order_line_price_history==18.0.*",
     "odoo-addon-sale_order_line_sequence==18.0.*",
+    "odoo-addon-sale_order_lot_selection==18.0.*",
+    "odoo-addon-sale_order_note_template==18.0.*",
     "odoo-addon-sale_order_product_availability_inline==18.0.*",
     "odoo-addon-sale_order_report_without_price==18.0.*",
     "odoo-addon-sale_order_revision==18.0.*",
     "odoo-addon-sale_order_type==18.0.*",
+    "odoo-addon-sale_order_warn_message==18.0.*",
+    "odoo-addon-sale_partner_address_restrict==18.0.*",
     "odoo-addon-sale_partner_selectable_option==18.0.*",
     "odoo-addon-sale_procurement_group_by_line==18.0.*",
     "odoo-addon-sale_product_set==18.0.*",
+    "odoo-addon-sale_product_set_packaging_qty==18.0.*",
     "odoo-addon-sale_shipping_info_helper==18.0.*",
     "odoo-addon-sale_sourced_by_line==18.0.*",
     "odoo-addon-sale_stock_cancel_restriction==18.0.*",
@@ -31,6 +39,7 @@ dependencies = [
     "odoo-addon-sale_tier_validation==18.0.*",
     "odoo-addon-sale_wishlist==18.0.*",
     "odoo-addon-sales_team_security==18.0.*",
+    "odoo-addon-sell_only_by_packaging==18.0.*",
 ]
 classifiers=[
     "Programming Language :: Python",

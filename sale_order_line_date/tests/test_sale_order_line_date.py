@@ -16,7 +16,18 @@ class TestSaleOrderLineDates(TransactionCase):
     def setUpClass(cls):
         """Setup a Sale Order with 4 lines."""
         super().setUpClass()
-        customer = cls.env.ref("base.res_partner_3")
+        customer = cls.env["res.partner"].create({
+            "name": "Test Company",
+            "is_company": True,
+            "street": "317 Fairchild Dr",
+            "city": "Fairfield",
+            "zip": "94535",
+            "country_id": cls.env.ref("base.us"),
+            "state_id": cls.env.ref("base.state_us_5"),
+            "email": "test-email@testdomain.com",
+            "phone": "(941)-284-4870",
+            "website": "http://testdomain.com",
+        })
         cls.company = cls.env.ref("base.main_company")
         cls.company.security_lead = 1
 

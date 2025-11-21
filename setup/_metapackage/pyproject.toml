@@ -1,6 +1,6 @@
 [project]
 name = "odoo-addons-oca-sale-workflow"
-version = "18.0.20251105.0"
+version = "18.0.20251120.3"
 dependencies = [
     "odoo-addon-partner_sale_pivot==18.0.*",
     "odoo-addon-portal_sale_order_search==18.0.*",
@@ -27,6 +27,7 @@ dependencies = [
     "odoo-addon-sale_exception_product_sale_manufactured_for==18.0.*",
     "odoo-addon-sale_fixed_discount==18.0.*",
     "odoo-addon-sale_force_invoiced==18.0.*",
+    "odoo-addon-sale_force_invoiced_quantity==18.0.*",
     "odoo-addon-sale_global_discount==18.0.*",
     "odoo-addon-sale_invoice_blocking==18.0.*",
     "odoo-addon-sale_invoice_frequency==18.0.*",
@@ -44,10 +45,12 @@ dependencies = [
     "odoo-addon-sale_order_line_chained_move==18.0.*",
     "odoo-addon-sale_order_line_date==18.0.*",
     "odoo-addon-sale_order_line_delivery_state==18.0.*",
+    "odoo-addon-sale_order_line_effective_date==18.0.*",
     "odoo-addon-sale_order_line_input==18.0.*",
     "odoo-addon-sale_order_line_menu==18.0.*",
     "odoo-addon-sale_order_line_note==18.0.*",
     "odoo-addon-sale_order_line_price_history==18.0.*",
+    "odoo-addon-sale_order_line_product_attribute_values==18.0.*",
     "odoo-addon-sale_order_line_remove==18.0.*",
     "odoo-addon-sale_order_line_sequence==18.0.*",
     "odoo-addon-sale_order_line_stock_move_history==18.0.*",
@@ -77,11 +80,13 @@ dependencies = [
     "odoo-addon-sale_pricelist_display_surcharge==18.0.*",
     "odoo-addon-sale_procurement_group_by_line==18.0.*",
     "odoo-addon-sale_product_identification==18.0.*",
+    "odoo-addon-sale_product_multi_add==18.0.*",
     "odoo-addon-sale_product_set==18.0.*",
     "odoo-addon-sale_product_set_packaging_qty==18.0.*",
     "odoo-addon-sale_quotation_number==18.0.*",
     "odoo-addon-sale_readonly_security==18.0.*",
     "odoo-addon-sale_require_po_doc==18.0.*",
+    "odoo-addon-sale_resource_booking==18.0.*",
     "odoo-addon-sale_shipping_info_helper==18.0.*",
     "odoo-addon-sale_sourced_by_line==18.0.*",
     "odoo-addon-sale_stock_cancel_restriction==18.0.*",
@@ -93,12 +98,14 @@ dependencies = [
     "odoo-addon-sale_stock_picking_blocking==18.0.*",
     "odoo-addon-sale_stock_picking_note==18.0.*",
     "odoo-addon-sale_stock_return_request==18.0.*",
+    "odoo-addon-sale_stock_secondary_unit==18.0.*",
     "odoo-addon-sale_substate==18.0.*",
     "odoo-addon-sale_tier_validation==18.0.*",
     "odoo-addon-sale_transaction_form_link==18.0.*",
     "odoo-addon-sale_wishlist==18.0.*",
     "odoo-addon-sales_team_security==18.0.*",
     "odoo-addon-sell_only_by_packaging==18.0.*",
+    "odoo-addon-web_widget_product_label_section_and_note_full_label_sale==18.0.*",
 ]
 classifiers=[
     "Programming Language :: Python",

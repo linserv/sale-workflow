@@ -46,6 +46,7 @@ addon | version | maintainers | summary
 [sale_exception_product_sale_manufactured_for](sale_exception_product_sale_manufactured_for/) | 18.0.1.0.0 |  | The partner set in the sales order can order only if he/she has a commercial entity that is listed as one of the partners for which the products can be manufactured for.
 [sale_fixed_discount](sale_fixed_discount/) | 18.0.1.0.0 |  | Allows to apply fixed amount discounts in sales orders.
 [sale_force_invoiced](sale_force_invoiced/) | 18.0.1.0.1 |  | Allows to force the invoice status of the sales order to Invoiced
+[sale_force_invoiced_quantity](sale_force_invoiced_quantity/) | 18.0.1.0.0 |  | Add manual invoice quantity in sales order lines
 [sale_global_discount](sale_global_discount/) | 18.0.1.0.0 |  | Sale Global Discount
 [sale_invoice_blocking](sale_invoice_blocking/) | 18.0.1.0.0 |  | Allow you to block the creation of invoices from a sale order.
 [sale_invoice_frequency](sale_invoice_frequency/) | 18.0.1.0.1 | <a href='https://github.com/Shide'><img src='https://github.com/Shide.png' width='32' height='32' style='border-radius:50%;' alt='Shide'/></a> <a href='https://github.com/yajo'><img src='https://github.com/yajo.png' width='32' height='32' style='border-radius:50%;' alt='yajo'/></a> <a href='https://github.com/EmilioPascual'><img src='https://github.com/EmilioPascual.png' width='32' height='32' style='border-radius:50%;' alt='EmilioPascual'/></a> | Define the invoice frequency for customers
@@ -63,12 +64,14 @@ addon | version | maintainers | summary
 [sale_order_line_chained_move](sale_order_line_chained_move/) | 18.0.1.0.0 | <a href='https://github.com/rousseldenis'><img src='https://github.com/rousseldenis.png' width='32' height='32' style='border-radius:50%;' alt='rousseldenis'/></a> | This module adds a field on sale order line to get all related move lines
 [sale_order_line_date](sale_order_line_date/) | 18.0.1.0.2 |  | Adds a commitment date to each sale order line.
 [sale_order_line_delivery_state](sale_order_line_delivery_state/) | 18.0.1.0.0 |  | Show the delivery state on the sale order line
+[sale_order_line_effective_date](sale_order_line_effective_date/) | 18.0.1.1.0 | <a href='https://github.com/EmilioPascual'><img src='https://github.com/EmilioPascual.png' width='32' height='32' style='border-radius:50%;' alt='EmilioPascual'/></a> <a href='https://github.com/rafaelbn'><img src='https://github.com/rafaelbn.png' width='32' height='32' style='border-radius:50%;' alt='rafaelbn'/></a> <a href='https://github.com/Shide'><img src='https://github.com/Shide.png' width='32' height='32' style='border-radius:50%;' alt='Shide'/></a> | Calculated effective dates in Sale Order Lines
 [sale_order_line_input](sale_order_line_input/) | 18.0.1.0.0 |  | Search, create or modify directly sale order lines
 [sale_order_line_menu](sale_order_line_menu/) | 18.0.1.0.0 |  | Adds a Sale Order Lines Menu
 [sale_order_line_note](sale_order_line_note/) | 18.0.1.0.0 |  | Note on sale order line
 [sale_order_line_price_history](sale_order_line_price_history/) | 18.0.1.0.0 | <a href='https://github.com/CarlosRoca13'><img src='https://github.com/CarlosRoca13.png' width='32' height='32' style='border-radius:50%;' alt='CarlosRoca13'/></a> <a href='https://github.com/Shide'><img src='https://github.com/Shide.png' width='32' height='32' style='border-radius:50%;' alt='Shide'/></a> | Sale order line price history
+[sale_order_line_product_attribute_values](sale_order_line_product_attribute_values/) | 18.0.1.0.0 | <a href='https://github.com/Shide'><img src='https://github.com/Shide.png' width='32' height='32' style='border-radius:50%;' alt='Shide'/></a> <a href='https://github.com/rafaelbn'><img src='https://github.com/rafaelbn.png' width='32' height='32' style='border-radius:50%;' alt='rafaelbn'/></a> | Store Product Attribute Values in Sale Order Lines
 [sale_order_line_remove](sale_order_line_remove/) | 18.0.1.0.0 |  | Allows removal of sale order lines from confirmed orders if not invoiced or received
-[sale_order_line_sequence](sale_order_line_sequence/) | 18.0.1.0.1 |  | Propagates SO line sequence to invoices and stock picking.
+[sale_order_line_sequence](sale_order_line_sequence/) | 18.0.1.1.0 |  | Propagates SO line sequence to invoices and stock picking.
 [sale_order_line_stock_move_history](sale_order_line_stock_move_history/) | 18.0.1.0.0 | <a href='https://github.com/ppyczko'><img src='https://github.com/ppyczko.png' width='32' height='32' style='border-radius:50%;' alt='ppyczko'/></a> | Show stock moves history for sale order lines
 [sale_order_line_tag](sale_order_line_tag/) | 18.0.1.0.0 | <a href='https://github.com/smaciaosi'><img src='https://github.com/smaciaosi.png' width='32' height='32' style='border-radius:50%;' alt='smaciaosi'/></a> <a href='https://github.com/dreispt'><img src='https://github.com/dreispt.png' width='32' height='32' style='border-radius:50%;' alt='dreispt'/></a> <a href='https://github.com/ckolobow'><img src='https://github.com/ckolobow.png' width='32' height='32' style='border-radius:50%;' alt='ckolobow'/></a> | Add tags to classify sales order line reasons
 [sale_order_lot_selection](sale_order_lot_selection/) | 18.0.1.1.0 | <a href='https://github.com/bodedra'><img src='https://github.com/bodedra.png' width='32' height='32' style='border-radius:50%;' alt='bodedra'/></a> | Sale Order Lot Selection
@@ -96,11 +99,13 @@ addon | version | maintainers | summary
 [sale_pricelist_display_surcharge](sale_pricelist_display_surcharge/) | 18.0.1.0.0 |  | This module shows to the customer the surcharges if wanted.
 [sale_procurement_group_by_line](sale_procurement_group_by_line/) | 18.0.1.0.1 |  | Base module for multiple procurement group by Sale order
 [sale_product_identification](sale_product_identification/) | 18.0.1.0.0 |  | Sale Product Identification Numbers
+[sale_product_multi_add](sale_product_multi_add/) | 18.0.1.0.0 |  | Sale Product Multi Add
 [sale_product_set](sale_product_set/) | 18.0.1.0.0 |  | Sales product set
 [sale_product_set_packaging_qty](sale_product_set_packaging_qty/) | 18.0.1.0.0 |  | Manage packaging and quantities on product set lines
 [sale_quotation_number](sale_quotation_number/) | 18.0.1.0.0 |  | Different sequence for sale quotations
 [sale_readonly_security](sale_readonly_security/) | 18.0.1.0.0 | <a href='https://github.com/victoralmau'><img src='https://github.com/victoralmau.png' width='32' height='32' style='border-radius:50%;' alt='victoralmau'/></a> | Sale Readonly Security
 [sale_require_po_doc](sale_require_po_doc/) | 18.0.1.0.0 |  | Sale Orders Require PO or Sales Documentation
+[sale_resource_booking](sale_resource_booking/) | 18.0.1.0.0 | <a href='https://github.com/Yajo'><img src='https://github.com/Yajo.png' width='32' height='32' style='border-radius:50%;' alt='Yajo'/></a> | Link resource bookings with sales
 [sale_shipping_info_helper](sale_shipping_info_helper/) | 18.0.1.0.0 |  | Add shipping amounts on sale order
 [sale_sourced_by_line](sale_sourced_by_line/) | 18.0.1.0.1 |  | Multiple warehouse source locations for Sale order
 [sale_stock_cancel_restriction](sale_stock_cancel_restriction/) | 18.0.1.0.0 |  | Sale Stock Cancel Restriction
@@ -112,12 +117,14 @@ addon | version | maintainers | summary
 [sale_stock_picking_blocking](sale_stock_picking_blocking/) | 18.0.1.0.2 |  | Allow you to block the creation of deliveries from a sale order.
 [sale_stock_picking_note](sale_stock_picking_note/) | 18.0.1.1.0 | <a href='https://github.com/carlosdauden'><img src='https://github.com/carlosdauden.png' width='32' height='32' style='border-radius:50%;' alt='carlosdauden'/></a> <a href='https://github.com/victoralmau'><img src='https://github.com/victoralmau.png' width='32' height='32' style='border-radius:50%;' alt='victoralmau'/></a> <a href='https://github.com/chienandalu'><img src='https://github.com/chienandalu.png' width='32' height='32' style='border-radius:50%;' alt='chienandalu'/></a> <a href='https://github.com/EmilioPascual'><img src='https://github.com/EmilioPascual.png' width='32' height='32' style='border-radius:50%;' alt='EmilioPascual'/></a> | Add picking note in sale and purchase order
 [sale_stock_return_request](sale_stock_return_request/) | 18.0.1.0.1 | <a href='https://github.com/chienandalu'><img src='https://github.com/chienandalu.png' width='32' height='32' style='border-radius:50%;' alt='chienandalu'/></a> | Sale Stock Return Request
+[sale_stock_secondary_unit](sale_stock_secondary_unit/) | 18.0.1.0.0 |  | Get product quantities in a secondary unit
 [sale_substate](sale_substate/) | 18.0.1.0.0 |  | Sale Sub State
 [sale_tier_validation](sale_tier_validation/) | 18.0.1.0.0 |  | Extends the functionality of Sale Orders to support a tier validation process.
 [sale_transaction_form_link](sale_transaction_form_link/) | 18.0.1.0.0 | <a href='https://github.com/rousseldenis'><img src='https://github.com/rousseldenis.png' width='32' height='32' style='border-radius:50%;' alt='rousseldenis'/></a> | Allows to display a link to payment transactions on Sale Order form view.
 [sale_wishlist](sale_wishlist/) | 18.0.1.0.0 |  | Handle sale wishlist for partners
 [sales_team_security](sales_team_security/) | 18.0.1.0.0 | <a href='https://github.com/pedrobaeza'><img src='https://github.com/pedrobaeza.png' width='32' height='32' style='border-radius:50%;' alt='pedrobaeza'/></a> <a href='https://github.com/ivantodorovich'><img src='https://github.com/ivantodorovich.png' width='32' height='32' style='border-radius:50%;' alt='ivantodorovich'/></a> | New group for seeing only sales channel's documents
-[sell_only_by_packaging](sell_only_by_packaging/) | 18.0.1.0.2 |  | Manage sale of packaging
+[sell_only_by_packaging](sell_only_by_packaging/) | 18.0.1.1.0 |  | Manage sale of packaging
+[web_widget_product_label_section_and_note_full_label_sale](web_widget_product_label_section_and_note_full_label_sale/) | 18.0.1.0.0 |  | Glue module between web_widget_product_label_section_and_note_full_label and sale.
 
 [//]: # (end addons)
 

@@ -54,7 +54,7 @@ addon | version | maintainers | summary
 [sale_order_archive](sale_order_archive/) | 17.0.1.0.0 |  | Archive Sale Orders
 [sale_order_carrier_auto_assign](sale_order_carrier_auto_assign/) | 17.0.1.1.2 | <a href='https://github.com/jbaudoux'><img src='https://github.com/jbaudoux.png' width='32' height='32' style='border-radius:50%;' alt='jbaudoux'/></a> | Auto assign delivery carrier on sale order confirmation
 [sale_order_general_discount](sale_order_general_discount/) | 17.0.1.0.0 |  | General discount per sale order
-[sale_order_invoice_amount](sale_order_invoice_amount/) | 17.0.1.0.0 |  | Improves Sales Order invoiced/to invoice amount calculation based on product quantities when the company setting is enabled.
+[sale_order_invoice_amount](sale_order_invoice_amount/) | 17.0.1.0.1 |  | Improves Sales Order invoiced/to invoice amount calculation based on product quantities when the company setting is enabled.
 [sale_order_invoicing_finished_task](sale_order_invoicing_finished_task/) | 17.0.2.0.0 |  | Control invoice order lines if their related task has been set to invoiceable
 [sale_order_line_date](sale_order_line_date/) | 17.0.1.0.2 |  | Adds a commitment date to each sale order line.
 [sale_order_line_description](sale_order_line_description/) | 17.0.1.0.0 |  | Sale order line description
@@ -73,7 +73,7 @@ addon | version | maintainers | summary
 [sale_order_product_recommendation](sale_order_product_recommendation/) | 17.0.1.1.0 | <a href='https://github.com/sergio-teruel'><img src='https://github.com/sergio-teruel.png' width='32' height='32' style='border-radius:50%;' alt='sergio-teruel'/></a> <a href='https://github.com/rafaelbn'><img src='https://github.com/rafaelbn.png' width='32' height='32' style='border-radius:50%;' alt='rafaelbn'/></a> <a href='https://github.com/yajo'><img src='https://github.com/yajo.png' width='32' height='32' style='border-radius:50%;' alt='yajo'/></a> | Recommend products to sell to customer based on history
 [sale_order_qty_change_no_recompute](sale_order_qty_change_no_recompute/) | 17.0.1.0.0 | <a href='https://github.com/victoralmau'><img src='https://github.com/victoralmau.png' width='32' height='32' style='border-radius:50%;' alt='victoralmau'/></a> | Prevent recompute if only quantity has changed in sale order line
 [sale_order_revision](sale_order_revision/) | 17.0.1.0.0 |  | Keep track of revised quotations
-[sale_order_secondary_unit](sale_order_secondary_unit/) | 17.0.1.0.5 |  | Sale product in a secondary unit
+[sale_order_secondary_unit](sale_order_secondary_unit/) | 17.0.1.0.6 |  | Sale product in a secondary unit
 [sale_order_type](sale_order_type/) | 17.0.1.0.2 |  | Sale Order Type
 [sale_order_type_confirm_message](sale_order_type_confirm_message/) | 17.0.1.0.0 |  | Confirmation requirement when validating sale
 [sale_order_warn_message](sale_order_warn_message/) | 17.0.1.0.1 |  | Add a popup warning on sale to ensure warning is populated

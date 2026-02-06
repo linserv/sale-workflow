@@ -60,10 +60,11 @@ addon | version | maintainers | summary
 [sale_mail_autosubscribe](sale_mail_autosubscribe/) | 18.0.1.0.0 | <a href='https://github.com/ivantodorovich'><img src='https://github.com/ivantodorovich.png' width='32' height='32' style='border-radius:50%;' alt='ivantodorovich'/></a> | Automatically subscribe partners to their company's sale orders
 [sale_manual_delivery](sale_manual_delivery/) | 18.0.1.0.1 |  | Create manually your deliveries
 [sale_mrp_bom](sale_mrp_bom/) | 18.0.1.0.0 |  | Allows define a BOM in the sales lines.
+[sale_multi_template_application](sale_multi_template_application/) | 18.0.1.0.0 |  | Sale multi template application
 [sale_order_amount_to_invoice](sale_order_amount_to_invoice/) | 18.0.1.0.0 |  | Show total amount to invoice in quotations/sales orders
 [sale_order_archive](sale_order_archive/) | 18.0.1.0.0 |  | Archive Sale Orders
 [sale_order_cancel_optional_email](sale_order_cancel_optional_email/) | 18.0.1.0.0 |  | Cancel sales orders directly without proposing to send email to customer
-[sale_order_carrier_auto_assign](sale_order_carrier_auto_assign/) | 18.0.1.0.1 | <a href='https://github.com/jbaudoux'><img src='https://github.com/jbaudoux.png' width='32' height='32' style='border-radius:50%;' alt='jbaudoux'/></a> | Auto assign delivery carrier on sale order confirmation
+[sale_order_carrier_auto_assign](sale_order_carrier_auto_assign/) | 18.0.1.0.2 | <a href='https://github.com/jbaudoux'><img src='https://github.com/jbaudoux.png' width='32' height='32' style='border-radius:50%;' alt='jbaudoux'/></a> | Auto assign delivery carrier on sale order confirmation
 [sale_order_disable_user_autosubscribe](sale_order_disable_user_autosubscribe/) | 18.0.1.0.0 |  | Remove the salesperson from autosubscribed sale followers
 [sale_order_general_discount](sale_order_general_discount/) | 18.0.1.0.1 |  | General discount per sale order
 [sale_order_invoicing_finished_task](sale_order_invoicing_finished_task/) | 18.0.1.0.0 |  | Control invoice order lines if their related task has been set to invoiceable
@@ -96,6 +97,7 @@ addon | version | maintainers | summary
 [sale_order_secondary_unit](sale_order_secondary_unit/) | 18.0.1.0.1 |  | Sale product in a secondary unit
 [sale_order_split_strategy](sale_order_split_strategy/) | 18.0.1.1.0 | <a href='https://github.com/grindtildeath'><img src='https://github.com/grindtildeath.png' width='32' height='32' style='border-radius:50%;' alt='grindtildeath'/></a> | Define strategies to split sales orders
 [sale_order_tag](sale_order_tag/) | 18.0.1.0.0 | <a href='https://github.com/patrickrwilson'><img src='https://github.com/patrickrwilson.png' width='32' height='32' style='border-radius:50%;' alt='patrickrwilson'/></a> | Adds Tags to Sales Orders.
+[sale_order_team_from_product](sale_order_team_from_product/) | 18.0.1.0.0 |  | Set Sales Team on quotations from product Sales Teams
 [sale_order_transmit_method](sale_order_transmit_method/) | 18.0.1.0.0 |  | Set transmit method (email, post, portal, ...) in sale order and propagate it to invoices
 [sale_order_type](sale_order_type/) | 18.0.1.1.1 |  | Sale Order Type
 [sale_order_warn_message](sale_order_warn_message/) | 18.0.1.0.1 |  | Add a popup warning on sale to ensure warning is populated
@@ -104,6 +106,7 @@ addon | version | maintainers | summary
 [sale_partner_incoterm](sale_partner_incoterm/) | 18.0.1.0.0 |  | Set the customer preferred incoterm on each sales order
 [sale_partner_primeship](sale_partner_primeship/) | 18.0.1.0.0 | <a href='https://github.com/nayatec'><img src='https://github.com/nayatec.png' width='32' height='32' style='border-radius:50%;' alt='nayatec'/></a> <a href='https://github.com/paradoxxxzero'><img src='https://github.com/paradoxxxzero.png' width='32' height='32' style='border-radius:50%;' alt='paradoxxxzero'/></a> | Allow you to manage time limited prime memberships and prime membership activation products.
 [sale_partner_selectable_option](sale_partner_selectable_option/) | 18.0.1.0.0 | <a href='https://github.com/victoralmau'><img src='https://github.com/victoralmau.png' width='32' height='32' style='border-radius:50%;' alt='victoralmau'/></a> | Sale Partner Selectable Option
+[sale_partner_shipping_default_partner_invoice](sale_partner_shipping_default_partner_invoice/) | 18.0.1.0.0 | <a href='https://github.com/yostashiro'><img src='https://github.com/yostashiro.png' width='32' height='32' style='border-radius:50%;' alt='yostashiro'/></a> <a href='https://github.com/aungkokolin1997'><img src='https://github.com/aungkokolin1997.png' width='32' height='32' style='border-radius:50%;' alt='aungkokolin1997'/></a> | Set invoice address based on shipping address for sales orders
 [sale_pricelist_display_surcharge](sale_pricelist_display_surcharge/) | 18.0.1.0.0 |  | This module shows to the customer the surcharges if wanted.
 [sale_pricelist_packaging](sale_pricelist_packaging/) | 18.0.1.0.0 | <a href='https://github.com/mathieudelva'><img src='https://github.com/mathieudelva.png' width='32' height='32' style='border-radius:50%;' alt='mathieudelva'/></a> | Sale Pricelist Packaging
 [sale_procurement_group_by_line](sale_procurement_group_by_line/) | 18.0.1.0.1 |  | Base module for multiple procurement group by Sale order

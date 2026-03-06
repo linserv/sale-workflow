@@ -25,7 +25,7 @@ addon | version | maintainers | summary
 [partner_sale_pivot](partner_sale_pivot/) | 17.0.1.0.0 | <a href='https://github.com/ernestotejeda'><img src='https://github.com/ernestotejeda.png' width='32' height='32' style='border-radius:50%;' alt='ernestotejeda'/></a> | Sales analysis from customer form view
 [portal_sale_personal_data_only](portal_sale_personal_data_only/) | 17.0.1.0.0 |  | Portal Sale Personal Data Only
 [product_form_sale_link](product_form_sale_link/) | 17.0.1.0.0 |  | Adds a button on product forms to access Sale Lines
-[product_supplierinfo_for_customer_sale](product_supplierinfo_for_customer_sale/) | 17.0.1.0.0 |  | Loads in every sale order line the customer code defined in the product
+[product_supplierinfo_for_customer_sale](product_supplierinfo_for_customer_sale/) | 17.0.1.0.1 |  | Loads in every sale order line the customer code defined in the product
 [sale_advance_payment](sale_advance_payment/) | 17.0.1.0.5 |  | Allow to add advance payments on sales and then use them on invoices
 [sale_attached_product](sale_attached_product/) | 17.0.1.0.0 | <a href='https://github.com/chienandalu'><img src='https://github.com/chienandalu.png' width='32' height='32' style='border-radius:50%;' alt='chienandalu'/></a> | Define products that will be added automatically when adding another in a sales order
 [sale_automatic_workflow](sale_automatic_workflow/) | 17.0.1.2.0 |  | Sale Automatic Workflow
@@ -43,7 +43,7 @@ addon | version | maintainers | summary
 [sale_fixed_discount](sale_fixed_discount/) | 17.0.2.1.0 |  | Allows to apply fixed amount discounts in sales orders.
 [sale_force_invoiced](sale_force_invoiced/) | 17.0.1.1.1 |  | Allows to force the invoice status of the sales order to Invoiced
 [sale_force_invoiced_quantity](sale_force_invoiced_quantity/) | 17.0.1.0.0 |  | Add manual invoice quantity in sales order lines
-[sale_force_whole_invoiceability](sale_force_whole_invoiceability/) | 17.0.1.0.0 |  | Sale Force Whole Invoiceability
+[sale_force_whole_invoiceability](sale_force_whole_invoiceability/) | 17.0.1.0.1 |  | Sale Force Whole Invoiceability
 [sale_global_discount](sale_global_discount/) | 17.0.1.0.0 |  | Sale Global Discount
 [sale_invoice_blocking](sale_invoice_blocking/) | 17.0.1.0.0 |  | Allow you to block the creation of invoices from a sale order.
 [sale_invoice_frequency](sale_invoice_frequency/) | 17.0.1.0.0 | <a href='https://github.com/Shide'><img src='https://github.com/Shide.png' width='32' height='32' style='border-radius:50%;' alt='Shide'/></a> <a href='https://github.com/yajo'><img src='https://github.com/yajo.png' width='32' height='32' style='border-radius:50%;' alt='yajo'/></a> <a href='https://github.com/EmilioPascual'><img src='https://github.com/EmilioPascual.png' width='32' height='32' style='border-radius:50%;' alt='EmilioPascual'/></a> | Define the invoice frequency for customers
@@ -73,6 +73,7 @@ addon | version | maintainers | summary
 [sale_order_product_availability_inline](sale_order_product_availability_inline/) | 17.0.1.0.0 | <a href='https://github.com/ernestotejeda'><img src='https://github.com/ernestotejeda.png' width='32' height='32' style='border-radius:50%;' alt='ernestotejeda'/></a> | Show product availability in sales order line product drop-down.
 [sale_order_product_recommendation](sale_order_product_recommendation/) | 17.0.1.1.1 | <a href='https://github.com/sergio-teruel'><img src='https://github.com/sergio-teruel.png' width='32' height='32' style='border-radius:50%;' alt='sergio-teruel'/></a> <a href='https://github.com/rafaelbn'><img src='https://github.com/rafaelbn.png' width='32' height='32' style='border-radius:50%;' alt='rafaelbn'/></a> <a href='https://github.com/yajo'><img src='https://github.com/yajo.png' width='32' height='32' style='border-radius:50%;' alt='yajo'/></a> | Recommend products to sell to customer based on history
 [sale_order_qty_change_no_recompute](sale_order_qty_change_no_recompute/) | 17.0.1.0.0 | <a href='https://github.com/victoralmau'><img src='https://github.com/victoralmau.png' width='32' height='32' style='border-radius:50%;' alt='victoralmau'/></a> | Prevent recompute if only quantity has changed in sale order line
+[sale_order_report_without_price](sale_order_report_without_price/) | 17.0.1.0.0 |  | Allow you to generate quotation and order reports without price.
 [sale_order_revision](sale_order_revision/) | 17.0.1.0.0 |  | Keep track of revised quotations
 [sale_order_secondary_unit](sale_order_secondary_unit/) | 17.0.1.0.6 |  | Sale product in a secondary unit
 [sale_order_type](sale_order_type/) | 17.0.1.0.2 |  | Sale Order Type
@@ -104,8 +105,8 @@ addon | version | maintainers | summary
 [sale_stock_picking_blocking](sale_stock_picking_blocking/) | 17.0.1.1.1 |  | Allow you to block the creation of deliveries from a sale order.
 [sale_stock_picking_note](sale_stock_picking_note/) | 17.0.1.0.0 | <a href='https://github.com/carlosdauden'><img src='https://github.com/carlosdauden.png' width='32' height='32' style='border-radius:50%;' alt='carlosdauden'/></a> <a href='https://github.com/victoralmau'><img src='https://github.com/victoralmau.png' width='32' height='32' style='border-radius:50%;' alt='victoralmau'/></a> <a href='https://github.com/chienandalu'><img src='https://github.com/chienandalu.png' width='32' height='32' style='border-radius:50%;' alt='chienandalu'/></a> <a href='https://github.com/EmilioPascual'><img src='https://github.com/EmilioPascual.png' width='32' height='32' style='border-radius:50%;' alt='EmilioPascual'/></a> | Add picking note in sale and purchase order
 [sale_stock_secondary_unit](sale_stock_secondary_unit/) | 17.0.1.0.1 |  | Get product quantities in a secondary unit
-[sale_substate](sale_substate/) | 17.0.1.0.0 |  | Sale Sub State
-[sale_tier_validation](sale_tier_validation/) | 17.0.1.1.0 |  | Extends the functionality of Sale Orders to support a tier validation process.
+[sale_substate](sale_substate/) | 17.0.1.0.1 |  | Sale Sub State
+[sale_tier_validation](sale_tier_validation/) | 17.0.1.1.1 |  | Extends the functionality of Sale Orders to support a tier validation process.
 [sale_validity_auto_cancel](sale_validity_auto_cancel/) | 17.0.1.0.0 | <a href='https://github.com/JordiMForgeFlow'><img src='https://github.com/JordiMForgeFlow.png' width='32' height='32' style='border-radius:50%;' alt='JordiMForgeFlow'/></a> | Automatically cancel quotations after validity period.
 [sales_team_invoiced_target_domain](sales_team_invoiced_target_domain/) | 17.0.1.0.0 |  | Sales Team Invoiced Target Domain
 [sales_team_security](sales_team_security/) | 17.0.1.0.1 | <a href='https://github.com/pedrobaeza'><img src='https://github.com/pedrobaeza.png' width='32' height='32' style='border-radius:50%;' alt='pedrobaeza'/></a> <a href='https://github.com/ivantodorovich'><img src='https://github.com/ivantodorovich.png' width='32' height='32' style='border-radius:50%;' alt='ivantodorovich'/></a> | New group for seeing only sales channel's documents

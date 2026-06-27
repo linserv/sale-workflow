@@ -1,6 +1,6 @@
 [project]
 name = "odoo-addons-oca-sale-workflow"
-version = "18.0.20260618.0"
+version = "18.0.20260623.2"
 dependencies = [
     "odoo-addon-partner_sale_pivot==18.0.*",
     "odoo-addon-portal_sale_list_extra_info==18.0.*",
@@ -86,6 +86,8 @@ dependencies = [
     "odoo-addon-sale_order_product_assortment==18.0.*",
     "odoo-addon-sale_order_product_availability_inline==18.0.*",
     "odoo-addon-sale_order_product_recommendation==18.0.*",
+    "odoo-addon-sale_order_product_recommendation_elaboration==18.0.*",
+    "odoo-addon-sale_order_product_recommendation_packaging_default==18.0.*",
     "odoo-addon-sale_order_report_without_price==18.0.*",
     "odoo-addon-sale_order_requested_delivery==18.0.*",
     "odoo-addon-sale_order_restrict_copy_archived_product==18.0.*",
@@ -137,6 +139,7 @@ dependencies = [
     "odoo-addon-sale_stock_partner_warehouse==18.0.*",
     "odoo-addon-sale_stock_picking_blocking==18.0.*",
     "odoo-addon-sale_stock_picking_note==18.0.*",
+    "odoo-addon-sale_stock_product_recommendation==18.0.*",
     "odoo-addon-sale_stock_reservation_issue_on_qty_at_date_widget==18.0.*",
     "odoo-addon-sale_stock_return_request==18.0.*",
     "odoo-addon-sale_stock_secondary_unit==18.0.*",

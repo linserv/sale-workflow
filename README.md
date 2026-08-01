@@ -1,4 +1,7 @@
 
+[![Support the OCA](https://odoo-community.org/readme-banner-image)](https://odoo-community.org/get-involved?utm_source=repo-readme)
+
+# sale-workflow
 [![Runboat](https://img.shields.io/badge/runboat-Try%20me-875A7B.png)](https://runboat.odoo-community.org/builds?repo=OCA/sale-workflow&target_branch=18.0)
 [![Pre-commit Status](https://github.com/OCA/sale-workflow/actions/workflows/pre-commit.yml/badge.svg?branch=18.0)](https://github.com/OCA/sale-workflow/actions/workflows/pre-commit.yml?query=branch%3A18.0)
 [![Build Status](https://github.com/OCA/sale-workflow/actions/workflows/test.yml/badge.svg?branch=18.0)](https://github.com/OCA/sale-workflow/actions/workflows/test.yml?query=branch%3A18.0)
@@ -6,8 +9,6 @@
 [![Translation Status](https://translation.odoo-community.org/widgets/sale-workflow-18-0/-/svg-badge.svg)](https://translation.odoo-community.org/engage/sale-workflow-18-0/?utm_source=widget)
 
 <!-- /!\ do not modify above this line -->
-
-# sale-workflow
 
 sale-workflow
 
@@ -32,8 +33,9 @@ addon | version | maintainers | summary
 [product_form_sale_link](product_form_sale_link/) | 18.0.1.0.1 |  | Adds a button on product forms to access Sale Lines
 [product_price_category](product_price_category/) | 18.0.1.0.0 | <a href='https://github.com/sbejaoui'><img src='https://github.com/sbejaoui.png' width='32' height='32' style='border-radius:50%;' alt='sbejaoui'/></a> | Add Price Category field on product and allow to apply a pricelist on this field.
 [product_set_sell_only_by_packaging](product_set_sell_only_by_packaging/) | 18.0.1.0.0 |  | Glue module between `sell_only_by_packaging` and `sale_product_set_packaging_qty`.
-[sale_advance_payment](sale_advance_payment/) | 18.0.1.0.2 |  | Allow to add advance payments on sales and then use them on invoices
-[sale_automatic_workflow](sale_automatic_workflow/) | 18.0.1.1.2 |  | Sale Automatic Workflow
+[sale_advance_payment](sale_advance_payment/) | 18.0.1.0.3 |  | Allow to add advance payments on sales and then use them on invoices
+[sale_automatic_workflow](sale_automatic_workflow/) | 18.0.1.2.0 |  | Sale Automatic Workflow
+[sale_automatic_workflow_auto_assign](sale_automatic_workflow_auto_assign/) | 18.0.1.1.0 |  | Assign automatically a workflow at sale creation
 [sale_automatic_workflow_force_invoiced](sale_automatic_workflow_force_invoiced/) | 18.0.1.0.0 |  | Force Invoice as an automatic workflow option
 [sale_automatic_workflow_job](sale_automatic_workflow_job/) | 18.0.1.0.2 |  | Execute sale automatic workflows in queue jobs
 [sale_automatic_workflow_periodicity](sale_automatic_workflow_periodicity/) | 18.0.1.0.0 | <a href='https://github.com/TDu'><img src='https://github.com/TDu.png' width='32' height='32' style='border-radius:50%;' alt='TDu'/></a> | Adds a period for the execution of a workflow.
@@ -82,11 +84,13 @@ addon | version | maintainers | summary
 [sale_order_line_cancel](sale_order_line_cancel/) | 18.0.1.1.1 |  | Sale cancel remaining
 [sale_order_line_cancel_sale_stock](sale_order_line_cancel_sale_stock/) | 18.0.1.1.1 |  | Sale cancel remaining stock
 [sale_order_line_chained_move](sale_order_line_chained_move/) | 18.0.1.0.0 | <a href='https://github.com/rousseldenis'><img src='https://github.com/rousseldenis.png' width='32' height='32' style='border-radius:50%;' alt='rousseldenis'/></a> | This module adds a field on sale order line to get all related move lines
-[sale_order_line_client_order_ref](sale_order_line_client_order_ref/) | 18.0.1.0.1 | <a href='https://github.com/yostashiro'><img src='https://github.com/yostashiro.png' width='32' height='32' style='border-radius:50%;' alt='yostashiro'/></a> <a href='https://github.com/aungkokolin1997'><img src='https://github.com/aungkokolin1997.png' width='32' height='32' style='border-radius:50%;' alt='aungkokolin1997'/></a> | Customer Reference on Sale Order Lines and Invoice Lines
+[sale_order_line_client_order_ref](sale_order_line_client_order_ref/) | 18.0.2.0.0 | <a href='https://github.com/yostashiro'><img src='https://github.com/yostashiro.png' width='32' height='32' style='border-radius:50%;' alt='yostashiro'/></a> <a href='https://github.com/aungkokolin1997'><img src='https://github.com/aungkokolin1997.png' width='32' height='32' style='border-radius:50%;' alt='aungkokolin1997'/></a> | Customer Reference on Sale Order Lines and Invoice Lines
 [sale_order_line_date](sale_order_line_date/) | 18.0.1.0.2 |  | Adds a commitment date to each sale order line.
+[sale_order_line_date_next_reception](sale_order_line_date_next_reception/) | 18.0.1.0.0 |  | Next reception Date on sale order line
 [sale_order_line_delivery_state](sale_order_line_delivery_state/) | 18.0.1.0.0 |  | Show the delivery state on the sale order line
 [sale_order_line_description](sale_order_line_description/) | 18.0.1.0.0 |  | Sale order line description
 [sale_order_line_effective_date](sale_order_line_effective_date/) | 18.0.1.1.0 | <a href='https://github.com/EmilioPascual'><img src='https://github.com/EmilioPascual.png' width='32' height='32' style='border-radius:50%;' alt='EmilioPascual'/></a> <a href='https://github.com/rafaelbn'><img src='https://github.com/rafaelbn.png' width='32' height='32' style='border-radius:50%;' alt='rafaelbn'/></a> <a href='https://github.com/Shide'><img src='https://github.com/Shide.png' width='32' height='32' style='border-radius:50%;' alt='Shide'/></a> | Calculated effective dates in Sale Order Lines
+[sale_order_line_final_price](sale_order_line_final_price/) | 18.0.1.0.1 | <a href='https://github.com/eduezerouali-tecnativa'><img src='https://github.com/eduezerouali-tecnativa.png' width='32' height='32' style='border-radius:50%;' alt='eduezerouali-tecnativa'/></a> | Set the final price of a sale order line, and lock its unit price and discount for non sales managers
 [sale_order_line_input](sale_order_line_input/) | 18.0.1.0.1 |  | Search, create or modify directly sale order lines
 [sale_order_line_menu](sale_order_line_menu/) | 18.0.1.0.0 |  | Adds a Sale Order Lines Menu
 [sale_order_line_no_print](sale_order_line_no_print/) | 18.0.1.0.0 | <a href='https://github.com/chienandalu'><img src='https://github.com/chienandalu.png' width='32' height='32' style='border-radius:50%;' alt='chienandalu'/></a> <a href='https://github.com/rafaelbn'><img src='https://github.com/rafaelbn.png' width='32' height='32' style='border-radius:50%;' alt='rafaelbn'/></a> | Hide order lines in reports
@@ -149,7 +153,7 @@ addon | version | maintainers | summary
 [sale_readonly_security](sale_readonly_security/) | 18.0.1.0.0 | <a href='https://github.com/victoralmau'><img src='https://github.com/victoralmau.png' width='32' height='32' style='border-radius:50%;' alt='victoralmau'/></a> | Sale Readonly Security
 [sale_require_po_doc](sale_require_po_doc/) | 18.0.1.0.1 |  | Sale Orders Require PO or Sales Documentation
 [sale_resource_booking](sale_resource_booking/) | 18.0.1.0.0 | <a href='https://github.com/Yajo'><img src='https://github.com/Yajo.png' width='32' height='32' style='border-radius:50%;' alt='Yajo'/></a> | Link resource bookings with sales
-[sale_restricted_qty](sale_restricted_qty/) | 18.0.1.0.0 | <a href='https://github.com/ashishhirapara'><img src='https://github.com/ashishhirapara.png' width='32' height='32' style='border-radius:50%;' alt='ashishhirapara'/></a> | Sale order restricted quantity: min, max, multiple-of
+[sale_restricted_qty](sale_restricted_qty/) | 18.0.2.0.1 | <a href='https://github.com/ashishhirapara'><img src='https://github.com/ashishhirapara.png' width='32' height='32' style='border-radius:50%;' alt='ashishhirapara'/></a> | Sale order restricted quantity: min, max, multiple-of
 [sale_semaphore](sale_semaphore/) | 18.0.1.0.3 |  | Adds a semaphore for commercial purposes
 [sale_shipping_info_helper](sale_shipping_info_helper/) | 18.0.1.0.0 |  | Add shipping amounts on sale order
 [sale_sourced_by_line](sale_sourced_by_line/) | 18.0.1.0.1 |  | Multiple warehouse source locations for Sale order
